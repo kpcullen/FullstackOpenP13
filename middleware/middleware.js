@@ -80,10 +80,6 @@ const authenticateToken = async (request, response, next) => {
       },
     })
     if (invalidToken) {
-      const decodedToken = jwt.verify(request.token, process.env.SECRET)
-      const user = await User.findByPk(decodedToken.id)
-      user.disabled = true
-      await user.save()
       return response.status(401).json({ error: 'Token has been invalidated' })
     }
   }
