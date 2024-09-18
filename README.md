@@ -8,10 +8,6 @@ This is the backend for the Blog App, part of the Full Stack Open course. It han
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Configuration](#configuration)
-- [Usage](#usage)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
